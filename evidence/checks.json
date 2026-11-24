@@ -1,0 +1,8 @@
+{
+  "tests": 2,
+  "result": "passed",
+  "integration": "passed",
+  "workload_runs": 2,
+  "delivered_events": 120,
+  "receiver_receipts": 120
+}

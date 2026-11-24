@@ -1,0 +1,31 @@
+{
+  "run_date": "2026-11-23",
+  "workload": {
+    "count": 60,
+    "client_concurrency": 12,
+    "poll_seconds": 0.06,
+    "fail_ack_every": 6
+  },
+  "one_worker": {
+    "submitted": 60,
+    "delivered": 60,
+    "other": 0,
+    "wall_seconds": 12.187,
+    "deliveries_per_second": 4.92,
+    "p50_observed_ms": 1898.0,
+    "p95_observed_ms": 4891.0,
+    "repeated_attempts": 10
+  },
+  "three_workers": {
+    "submitted": 60,
+    "delivered": 60,
+    "other": 0,
+    "wall_seconds": 5.203,
+    "deliveries_per_second": 11.53,
+    "p50_observed_ms": 625.0,
+    "p95_observed_ms": 1922.0,
+    "repeated_attempts": 10
+  },
+  "receiver_receipts_from_both_runs": 120,
+  "scope": "One sequential local run per configuration, fixed HTTP polling, Docker Desktop and a shared fixture database. Timing includes the polling interval and does not establish hosted throughput."
+}

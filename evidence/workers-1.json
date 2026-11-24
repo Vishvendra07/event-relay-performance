@@ -1,0 +1,565 @@
+{
+  "workload": {
+    "count": 60,
+    "client_concurrency": 12,
+    "poll_seconds": 0.06,
+    "fail_ack_every": 6
+  },
+  "host": {
+    "platform": "Windows",
+    "machine": "AMD64",
+    "python": "3.11.9"
+  },
+  "results": {
+    "submitted": 60,
+    "delivered": 60,
+    "other": 0,
+    "wall_seconds": 12.187,
+    "deliveries_per_second": 4.92,
+    "p50_observed_ms": 1898.0,
+    "p95_observed_ms": 4891.0,
+    "repeated_attempts": 10
+  },
+  "events": [
+    {
+      "event_id": "a36bd31b-1876-4937-91cf-1b48fce29142",
+      "reference": "bench-1",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1328.0
+    },
+    {
+      "event_id": "6564f82a-fefd-4a9e-875d-77704e670eca",
+      "reference": "bench-2",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1500.0
+    },
+    {
+      "event_id": "2c3a3064-9781-4300-9f98-c5a8770ee5a4",
+      "reference": "bench-3",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1000.0
+    },
+    {
+      "event_id": "1d0271db-3a7a-45fa-91ed-7d9095b0b0dc",
+      "reference": "bench-4",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1094.0
+    },
+    {
+      "event_id": "a4a454e8-e51e-4cae-b82d-b9dfb6c6d573",
+      "reference": "bench-5",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1203.0
+    },
+    {
+      "event_id": "935dac82-2c5e-400b-be8c-33d1999fbd3e",
+      "reference": "bench-6",
+      "state": "delivered",
+      "attempts": 2,
+      "last_error": null,
+      "scenario": "ack_failed_once",
+      "elapsed_ms": 4984.0
+    },
+    {
+      "event_id": "805df535-4947-4e66-9cec-483c4c77c459",
+      "reference": "bench-7",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1890.0
+    },
+    {
+      "event_id": "1b225b41-a53a-411d-8341-dfa1f690a7f6",
+      "reference": "bench-8",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 750.0
+    },
+    {
+      "event_id": "0d4f58d5-55fe-4437-8297-8b3e5b7a7301",
+      "reference": "bench-9",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1625.0
+    },
+    {
+      "event_id": "9edc308d-6efd-4c16-8bad-87f1a52e5dd2",
+      "reference": "bench-10",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1610.0
+    },
+    {
+      "event_id": "cb7e2b3d-b173-4db0-9a0f-0c8b132c2e8f",
+      "reference": "bench-11",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 579.0
+    },
+    {
+      "event_id": "1026adb5-b9d0-4df3-b8b3-8153cca06ab8",
+      "reference": "bench-12",
+      "state": "delivered",
+      "attempts": 2,
+      "last_error": null,
+      "scenario": "ack_failed_once",
+      "elapsed_ms": 3829.0
+    },
+    {
+      "event_id": "84ec163e-d5f7-44e8-a039-2a1ee4c06e7d",
+      "reference": "bench-13",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1734.0
+    },
+    {
+      "event_id": "3fcaa7ba-5ad1-4414-90d0-eb7cd4ceb79b",
+      "reference": "bench-14",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1704.0
+    },
+    {
+      "event_id": "ff2b4db3-ad0b-4949-bd34-c5086916983c",
+      "reference": "bench-15",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1781.0
+    },
+    {
+      "event_id": "d69d1dc1-cd71-4111-b45c-066e01feec16",
+      "reference": "bench-16",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1750.0
+    },
+    {
+      "event_id": "2dd21ad5-8530-428b-9f03-bbfdd5d8a8ab",
+      "reference": "bench-17",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1781.0
+    },
+    {
+      "event_id": "8e13cdd3-acf5-4fbb-8c73-8b3f96b625d7",
+      "reference": "bench-18",
+      "state": "delivered",
+      "attempts": 2,
+      "last_error": null,
+      "scenario": "ack_failed_once",
+      "elapsed_ms": 4781.0
+    },
+    {
+      "event_id": "8fa88ca1-a4c6-431b-a0e1-88955d4ebca9",
+      "reference": "bench-19",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1859.0
+    },
+    {
+      "event_id": "ac74391d-ec90-46fd-8672-eea42d3bbf5c",
+      "reference": "bench-20",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 2047.0
+    },
+    {
+      "event_id": "80abd727-0bee-4775-9a0e-0fe16f07e720",
+      "reference": "bench-21",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 2172.0
+    },
+    {
+      "event_id": "4c9e24b0-5b3b-4bf6-b60a-94d4c5b6194c",
+      "reference": "bench-22",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 2157.0
+    },
+    {
+      "event_id": "2c3ea17f-a4c6-47e4-be10-766dd883121d",
+      "reference": "bench-23",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1875.0
+    },
+    {
+      "event_id": "5cadcfed-448b-4e7a-a210-f1161a2fddfc",
+      "reference": "bench-24",
+      "state": "delivered",
+      "attempts": 2,
+      "last_error": null,
+      "scenario": "ack_failed_once",
+      "elapsed_ms": 5421.0
+    },
+    {
+      "event_id": "b2f9c0d5-a571-49d3-9121-fb767bb16f1c",
+      "reference": "bench-25",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1813.0
+    },
+    {
+      "event_id": "546c26c0-da14-4b20-b94a-3c2f7c79df86",
+      "reference": "bench-26",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1906.0
+    },
+    {
+      "event_id": "a8b13d21-4de7-4251-bc25-88dab396fe5b",
+      "reference": "bench-27",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 2281.0
+    },
+    {
+      "event_id": "5a51b855-f57c-4b5b-b30e-fd5db69ff8cd",
+      "reference": "bench-28",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1906.0
+    },
+    {
+      "event_id": "c85832fd-d72d-449f-a0e1-9eef37fa4924",
+      "reference": "bench-29",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1828.0
+    },
+    {
+      "event_id": "903e0124-234d-4d41-8dfe-ed2d48f219a4",
+      "reference": "bench-30",
+      "state": "delivered",
+      "attempts": 2,
+      "last_error": null,
+      "scenario": "ack_failed_once",
+      "elapsed_ms": 4891.0
+    },
+    {
+      "event_id": "2b9e36e3-4267-45d4-988e-c503bde69772",
+      "reference": "bench-31",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1953.0
+    },
+    {
+      "event_id": "7d39aa7c-abaf-4fb1-a152-24bd6010a78a",
+      "reference": "bench-32",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 2172.0
+    },
+    {
+      "event_id": "15e4bad5-d08c-488c-a53f-ed18f7755705",
+      "reference": "bench-33",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 2406.0
+    },
+    {
+      "event_id": "4c9dd019-f81b-44b3-b001-68eeae0f5a29",
+      "reference": "bench-34",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 2187.0
+    },
+    {
+      "event_id": "7008272a-5ac6-4632-9b52-b1c65e9cd5d3",
+      "reference": "bench-35",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 2344.0
+    },
+    {
+      "event_id": "44a206c4-a43c-422e-9af3-693059aca0e5",
+      "reference": "bench-36",
+      "state": "delivered",
+      "attempts": 2,
+      "last_error": null,
+      "scenario": "ack_failed_once",
+      "elapsed_ms": 4922.0
+    },
+    {
+      "event_id": "9d4b6b41-24bf-4d19-9b55-4b03ead8806d",
+      "reference": "bench-37",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 2125.0
+    },
+    {
+      "event_id": "b14d634a-38e2-4a09-bac1-77f3b889e65b",
+      "reference": "bench-38",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 2375.0
+    },
+    {
+      "event_id": "64c5d041-c9d9-404a-baf5-2fa7ece2aceb",
+      "reference": "bench-39",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 2484.0
+    },
+    {
+      "event_id": "c3fbd270-04f5-4c59-9de2-ed8a311c126e",
+      "reference": "bench-40",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 2359.0
+    },
+    {
+      "event_id": "26afb9f6-69e2-4644-8c9e-c1bbb147b561",
+      "reference": "bench-41",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 2266.0
+    },
+    {
+      "event_id": "d84f2f00-9399-4038-abdd-e76502a3ce3e",
+      "reference": "bench-42",
+      "state": "delivered",
+      "attempts": 2,
+      "last_error": null,
+      "scenario": "ack_failed_once",
+      "elapsed_ms": 4468.0
+    },
+    {
+      "event_id": "549a01c2-168e-4834-810a-3f6a1e781400",
+      "reference": "bench-43",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 2313.0
+    },
+    {
+      "event_id": "b27d87f2-6ad7-4077-9c82-1d5d724e66ea",
+      "reference": "bench-44",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 2313.0
+    },
+    {
+      "event_id": "46e9d56f-5e39-4f59-85a5-baed6be01f86",
+      "reference": "bench-45",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 2062.0
+    },
+    {
+      "event_id": "64e3b641-0ea3-4146-9eaa-4a54b49a1327",
+      "reference": "bench-46",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1954.0
+    },
+    {
+      "event_id": "d18cfb76-5d0c-4cac-b238-305d8f2d1a8d",
+      "reference": "bench-47",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1813.0
+    },
+    {
+      "event_id": "873ffb3c-63aa-446e-912c-aeca8d0b0a9a",
+      "reference": "bench-48",
+      "state": "delivered",
+      "attempts": 2,
+      "last_error": null,
+      "scenario": "ack_failed_once",
+      "elapsed_ms": 3250.0
+    },
+    {
+      "event_id": "dd43c8ba-6878-49be-893d-73edca419088",
+      "reference": "bench-49",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1781.0
+    },
+    {
+      "event_id": "049d21e3-0f1c-4359-98ca-9ce058849f9a",
+      "reference": "bench-50",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1859.0
+    },
+    {
+      "event_id": "4edb5a7e-e537-431c-9def-dec4a1826d84",
+      "reference": "bench-51",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1750.0
+    },
+    {
+      "event_id": "3446c89f-b279-4648-ba7d-78f874b3e4d5",
+      "reference": "bench-52",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1531.0
+    },
+    {
+      "event_id": "496b390d-deb5-4a5b-ba88-0c3000c83ad1",
+      "reference": "bench-53",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1453.0
+    },
+    {
+      "event_id": "1e156027-eb15-4234-a75f-a31499869d21",
+      "reference": "bench-54",
+      "state": "delivered",
+      "attempts": 2,
+      "last_error": null,
+      "scenario": "ack_failed_once",
+      "elapsed_ms": 2375.0
+    },
+    {
+      "event_id": "f81395dc-99cf-4d8d-8762-6929953d6058",
+      "reference": "bench-55",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1344.0
+    },
+    {
+      "event_id": "81e2b17f-9fe3-44a4-a0bb-1f511d8fd331",
+      "reference": "bench-56",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1265.0
+    },
+    {
+      "event_id": "3a4682ee-5de9-4ff5-9312-0cf8a532ae77",
+      "reference": "bench-57",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1312.0
+    },
+    {
+      "event_id": "bd15e038-737b-4e02-a673-6a52e3b8a5c1",
+      "reference": "bench-58",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1063.0
+    },
+    {
+      "event_id": "0a2551f7-fdd3-4ea1-8465-bcbcbbae0630",
+      "reference": "bench-59",
+      "state": "delivered",
+      "attempts": 1,
+      "last_error": null,
+      "scenario": "normal",
+      "elapsed_ms": 1016.0
+    },
+    {
+      "event_id": "82d00b70-983a-402a-a2ac-b102208d40d8",
+      "reference": "bench-60",
+      "state": "delivered",
+      "attempts": 2,
+      "last_error": null,
+      "scenario": "ack_failed_once",
+      "elapsed_ms": 2141.0
+    }
+  ]
+}
